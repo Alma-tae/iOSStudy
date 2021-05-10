@@ -24,8 +24,20 @@ class ViewController: UIViewController {
         if btn.title(for: .normal) == "위치정보수집시작"{
             locationManager.startUpdatingLocation()
             btn.setTitle("위치정보수집중지", for: .normal)
+            
+            //영역 설정
+            //중덤의 좌표 설정
+            let center = CLLocationCoordinate2D(latitude: 37.5690886, longitude: 126.984652)
+            //원의 거리 - 1km
+            let maxDistance = 1000.0
+            //영역을 생성
+            region = CLCircularRegion(center: center, radius: maxDistance, identifier: "종로")
+            //영역을 감시
+            locationManager.startMonitoring(for: region)
+            
         }else{
             locationManager.stopUpdatingLocation()
+            locationManager.stopMonitoring(for: region)
             btn.setTitle("위치정보수집시작", for: .normal)
         }
     }
@@ -35,6 +47,9 @@ class ViewController: UIViewController {
     
     //첫번째 위치를 저장할 프로퍼티
     var startLocation : CLLocation!
+    
+    //영역에 대한 정보를 저장할 프로퍼티
+    var region : CLCircularRegion!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -76,9 +91,22 @@ extension ViewController:CLLocationManagerDelegate{
         lblDistance.text = String(format:"%.2f", distance)
     }
     
-    //우치 정보를 가져오는데 실패했을 때 호출되는 메서드
+    //위치 정보를 가져오는데 실패했을 때 호출되는 메서드
     func locationManager(_ manager: CLLocationManager, didFailWithError error: Error) {
         let alert = UIAlertController(title: "위치정보", message: "위치정보 가져오기 실패", preferredStyle: .alert)
+        alert.addAction(UIAlertAction(title: "확인", style: .default))
+        self.present(alert, animated: true)
+    }
+    
+    //영역에 들어온 경우 호출되는 메서드
+    func locationManager(_ manager: CLLocationManager, didEnterRegion region: CLRegion) {
+        let alert = UIAlertController(title: "종로", message: "종로에 들어옴", preferredStyle: .alert)
+        alert.addAction(UIAlertAction(title: "확인", style: .default))
+        self.present(alert, animated: true)
+    }
+    //영역에 나가는 경우 호출되는 메서드
+    func locationManager(_ manager: CLLocationManager, didExitRegion region: CLRegion) {
+        let alert = UIAlertController(title: "종로", message: "종로에서 나감", preferredStyle: .alert)
         alert.addAction(UIAlertAction(title: "확인", style: .default))
         self.present(alert, animated: true)
     }
