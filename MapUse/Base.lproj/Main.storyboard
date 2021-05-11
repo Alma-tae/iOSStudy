@@ -76,7 +76,13 @@
                         <viewLayoutGuide key="safeArea" id="45C-cG-7cl"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <navigationItem key="navigationItem" id="EeB-NK-9V4"/>
+                    <navigationItem key="navigationItem" id="EeB-NK-9V4">
+                        <barButtonItem key="rightBarButtonItem" title="FlyIOver" id="HNv-M0-hNU">
+                            <connections>
+                                <action selector="animateCamera:" destination="6Pc-rO-WOX" id="JT3-jL-gcZ"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                     <connections>
                         <outlet property="routeMap" destination="44y-J0-XeH" id="lbV-Pv-ZSI"/>
                     </connections>

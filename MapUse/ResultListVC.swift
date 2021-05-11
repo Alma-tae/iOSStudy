@@ -47,7 +47,15 @@ class ResultListVC: UITableViewController {
         return cell!
     }
     
-
+    //셀을 선택했을 때 호출되는 메서드
+    override func tableView(_ tableView:UITableView, didSelectRowAt indexPath: IndexPath){
+        //RouteVE 클래스의 객체 생성
+        
+        let routeVC = self.storyboard?.instantiateViewController(identifier: "RouteVC") as! RouteVC
+        let destination = mapItem?[indexPath.row]
+        routeVC.destination = destination
+        self.navigationController?.pushViewController(routeVC, animated: true)
+    }
  
 
 }
