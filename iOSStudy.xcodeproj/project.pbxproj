@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		026C4F300C370284A9863F59 /* Pods_Multimedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B0CE122C21A723F34B94988 /* Pods_Multimedia.framework */; };
 		0F79D07DE2B7D850A850A45E /* Pods_LocationUse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82BC57FEF209F7B41E56AF90 /* Pods_LocationUse.framework */; };
+		7F136A79525B058803BA80F6 /* Pods_SwipeTab.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56509777825BCD75E83F259B /* Pods_SwipeTab.framework */; };
 		B8F1B03CB19032BED9521834 /* Pods_iOSStudy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25EAD1A716859252DADEB4D2 /* Pods_iOSStudy.framework */; };
 		C4B6867B262EBDCD00EBFA47 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4B6867A262EBDCD00EBFA47 /* AppDelegate.swift */; };
 		C4B6867D262EBDCD00EBFA47 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4B6867C262EBDCD00EBFA47 /* SceneDelegate.swift */; };
@@ -52,6 +53,19 @@
 		CD178A11264BA34800AD97B2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD178A0F264BA34800AD97B2 /* Main.storyboard */; };
 		CD178A13264BA36500AD97B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD178A12264BA36500AD97B2 /* Assets.xcassets */; };
 		CD178A16264BA36500AD97B2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD178A14264BA36500AD97B2 /* LaunchScreen.storyboard */; };
+		CD178A25264BA6E400AD97B2 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD178A24264BA6E300AD97B2 /* SWRevealViewController.m */; };
+		CD178A2D264BAC1300AD97B2 /* FrontViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD178A2C264BAC1300AD97B2 /* FrontViewController.swift */; };
+		CD178A35264BB5A200AD97B2 /* SideBarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD178A34264BB5A200AD97B2 /* SideBarVC.swift */; };
+		CD178A3D264BC3E900AD97B2 /* NewWriteVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD178A3C264BC3E900AD97B2 /* NewWriteVC.swift */; };
+		CD178A4B264BCADF00AD97B2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD178A4A264BCADF00AD97B2 /* AppDelegate.swift */; };
+		CD178A4D264BCADF00AD97B2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD178A4C264BCADF00AD97B2 /* SceneDelegate.swift */; };
+		CD178A4F264BCADF00AD97B2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD178A4E264BCADF00AD97B2 /* ViewController.swift */; };
+		CD178A52264BCADF00AD97B2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD178A50264BCADF00AD97B2 /* Main.storyboard */; };
+		CD178A54264BCAF800AD97B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD178A53264BCAF800AD97B2 /* Assets.xcassets */; };
+		CD178A57264BCAF800AD97B2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD178A55264BCAF800AD97B2 /* LaunchScreen.storyboard */; };
+		CD178A73264BCDBB00AD97B2 /* SwipeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD178A72264BCDBB00AD97B2 /* SwipeViewController.swift */; };
+		CD178A74264BCDBB00AD97B2 /* SwipeButtonWithImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD178A71264BCDBB00AD97B2 /* SwipeButtonWithImage.swift */; };
+		CD178A84264BCEDD00AD97B2 /* FirstVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD178A83264BCEDD00AD97B2 /* FirstVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -59,8 +73,11 @@
 		0B0CE122C21A723F34B94988 /* Pods_Multimedia.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Multimedia.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0E959931904758151E50AD01 /* Pods-LocationUse.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LocationUse.release.xcconfig"; path = "Target Support Files/Pods-LocationUse/Pods-LocationUse.release.xcconfig"; sourceTree = "<group>"; };
 		162AF6393761176783646BAC /* Pods-MapUse.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MapUse.debug.xcconfig"; path = "Target Support Files/Pods-MapUse/Pods-MapUse.debug.xcconfig"; sourceTree = "<group>"; };
+		1C4DC9B51CD8BDAB4271679C /* Pods-SwipeTab.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwipeTab.debug.xcconfig"; path = "Target Support Files/Pods-SwipeTab/Pods-SwipeTab.debug.xcconfig"; sourceTree = "<group>"; };
 		23CAD7AA550BCC03607ED6C4 /* Pods-iOSStudy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSStudy.debug.xcconfig"; path = "Target Support Files/Pods-iOSStudy/Pods-iOSStudy.debug.xcconfig"; sourceTree = "<group>"; };
 		25EAD1A716859252DADEB4D2 /* Pods_iOSStudy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOSStudy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3382F39DD1699C000CCFB9CF /* Pods-SwipeTab.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwipeTab.release.xcconfig"; path = "Target Support Files/Pods-SwipeTab/Pods-SwipeTab.release.xcconfig"; sourceTree = "<group>"; };
+		56509777825BCD75E83F259B /* Pods_SwipeTab.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwipeTab.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		82BC57FEF209F7B41E56AF90 /* Pods_LocationUse.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LocationUse.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC2959166BE27A36949038CC /* Pods_MapUse.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MapUse.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4B68677262EBDCD00EBFA47 /* iOSStudy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSStudy.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -117,6 +134,23 @@
 		CD178A12264BA36500AD97B2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CD178A15264BA36500AD97B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CD178A17264BA36500AD97B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD178A22264BA6E300AD97B2 /* UICustomizing-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UICustomizing-Bridging-Header.h"; sourceTree = "<group>"; };
+		CD178A23264BA6E300AD97B2 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		CD178A24264BA6E300AD97B2 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		CD178A2C264BAC1300AD97B2 /* FrontViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrontViewController.swift; sourceTree = "<group>"; };
+		CD178A34264BB5A200AD97B2 /* SideBarVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideBarVC.swift; sourceTree = "<group>"; };
+		CD178A3C264BC3E900AD97B2 /* NewWriteVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewWriteVC.swift; sourceTree = "<group>"; };
+		CD178A48264BCADF00AD97B2 /* SwipeTab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwipeTab.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD178A4A264BCADF00AD97B2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CD178A4C264BCADF00AD97B2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CD178A4E264BCADF00AD97B2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CD178A51264BCADF00AD97B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CD178A53264BCAF800AD97B2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CD178A56264BCAF800AD97B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CD178A58264BCAF800AD97B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD178A71264BCDBB00AD97B2 /* SwipeButtonWithImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeButtonWithImage.swift; sourceTree = "<group>"; };
+		CD178A72264BCDBB00AD97B2 /* SwipeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeViewController.swift; sourceTree = "<group>"; };
+		CD178A83264BCEDD00AD97B2 /* FirstVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = FirstVC.swift; path = ../../../FirstVC.swift; sourceTree = "<group>"; };
 		DB2C32E313878B73F4CB3D79 /* Pods-LocationUse.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LocationUse.debug.xcconfig"; path = "Target Support Files/Pods-LocationUse/Pods-LocationUse.debug.xcconfig"; sourceTree = "<group>"; };
 		E86D878E0B778A87DB4CAC19 /* Pods-MapUse.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MapUse.release.xcconfig"; path = "Target Support Files/Pods-MapUse/Pods-MapUse.release.xcconfig"; sourceTree = "<group>"; };
 		EA1C152017305714628018E5 /* Pods-Multimedia.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Multimedia.debug.xcconfig"; path = "Target Support Files/Pods-Multimedia/Pods-Multimedia.debug.xcconfig"; sourceTree = "<group>"; };
@@ -169,6 +203,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		CD178A45264BCADF00AD97B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F136A79525B058803BA80F6 /* Pods_SwipeTab.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -183,6 +225,8 @@
 				002CE03BA4A072CE559B4F19 /* Pods-Multimedia.release.xcconfig */,
 				23CAD7AA550BCC03607ED6C4 /* Pods-iOSStudy.debug.xcconfig */,
 				C7772D9F0EC8659F6607832F /* Pods-iOSStudy.release.xcconfig */,
+				1C4DC9B51CD8BDAB4271679C /* Pods-SwipeTab.debug.xcconfig */,
+				3382F39DD1699C000CCFB9CF /* Pods-SwipeTab.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -194,6 +238,7 @@
 				AC2959166BE27A36949038CC /* Pods_MapUse.framework */,
 				0B0CE122C21A723F34B94988 /* Pods_Multimedia.framework */,
 				25EAD1A716859252DADEB4D2 /* Pods_iOSStudy.framework */,
+				56509777825BCD75E83F259B /* Pods_SwipeTab.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -207,6 +252,7 @@
 				CD1789A7264A337600AD97B2 /* Multimedia */,
 				CD1789E4264B703400AD97B2 /* NavigationBarCustomizing */,
 				CD178A08264BA34800AD97B2 /* UICustomizing */,
+				CD178A49264BCADF00AD97B2 /* SwipeTab */,
 				C4B68678262EBDCD00EBFA47 /* Products */,
 				A15ED80E08923278B9666BF1 /* Pods */,
 				A161EFA5E72504505ACEC9F2 /* Frameworks */,
@@ -222,6 +268,7 @@
 				CD1789A6264A337600AD97B2 /* Multimedia.app */,
 				CD1789E3264B703400AD97B2 /* NavigationBarCustomizing.app */,
 				CD178A07264BA34800AD97B2 /* UICustomizing.app */,
+				CD178A48264BCADF00AD97B2 /* SwipeTab.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -304,6 +351,7 @@
 		CD178A08264BA34800AD97B2 /* UICustomizing */ = {
 			isa = PBXGroup;
 			children = (
+				CD178A21264BA58000AD97B2 /* SWReveal */,
 				CD178A09264BA34800AD97B2 /* AppDelegate.swift */,
 				CD178A0B264BA34800AD97B2 /* SceneDelegate.swift */,
 				CD178A0D264BA34800AD97B2 /* ViewController.swift */,
@@ -311,8 +359,38 @@
 				CD178A12264BA36500AD97B2 /* Assets.xcassets */,
 				CD178A14264BA36500AD97B2 /* LaunchScreen.storyboard */,
 				CD178A17264BA36500AD97B2 /* Info.plist */,
+				CD178A2C264BAC1300AD97B2 /* FrontViewController.swift */,
+				CD178A34264BB5A200AD97B2 /* SideBarVC.swift */,
+				CD178A3C264BC3E900AD97B2 /* NewWriteVC.swift */,
 			);
 			path = UICustomizing;
+			sourceTree = "<group>";
+		};
+		CD178A21264BA58000AD97B2 /* SWReveal */ = {
+			isa = PBXGroup;
+			children = (
+				CD178A23264BA6E300AD97B2 /* SWRevealViewController.h */,
+				CD178A24264BA6E300AD97B2 /* SWRevealViewController.m */,
+				CD178A22264BA6E300AD97B2 /* UICustomizing-Bridging-Header.h */,
+			);
+			path = SWReveal;
+			sourceTree = "<group>";
+		};
+		CD178A49264BCADF00AD97B2 /* SwipeTab */ = {
+			isa = PBXGroup;
+			children = (
+				CD178A71264BCDBB00AD97B2 /* SwipeButtonWithImage.swift */,
+				CD178A72264BCDBB00AD97B2 /* SwipeViewController.swift */,
+				CD178A4A264BCADF00AD97B2 /* AppDelegate.swift */,
+				CD178A4C264BCADF00AD97B2 /* SceneDelegate.swift */,
+				CD178A4E264BCADF00AD97B2 /* ViewController.swift */,
+				CD178A50264BCADF00AD97B2 /* Main.storyboard */,
+				CD178A53264BCAF800AD97B2 /* Assets.xcassets */,
+				CD178A55264BCAF800AD97B2 /* LaunchScreen.storyboard */,
+				CD178A58264BCAF800AD97B2 /* Info.plist */,
+				CD178A83264BCEDD00AD97B2 /* FirstVC.swift */,
+			);
+			path = SwipeTab;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -425,6 +503,25 @@
 			productReference = CD178A07264BA34800AD97B2 /* UICustomizing.app */;
 			productType = "com.apple.product-type.application";
 		};
+		CD178A47264BCADF00AD97B2 /* SwipeTab */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD178A59264BCAF800AD97B2 /* Build configuration list for PBXNativeTarget "SwipeTab" */;
+			buildPhases = (
+				4FA9E17422CB08BD6BBC6D9E /* [CP] Check Pods Manifest.lock */,
+				CD178A44264BCADF00AD97B2 /* Sources */,
+				CD178A45264BCADF00AD97B2 /* Frameworks */,
+				CD178A46264BCADF00AD97B2 /* Resources */,
+				E9E3FBE5B53ED4BB25E170CA /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwipeTab;
+			productName = SwipeTab;
+			productReference = CD178A48264BCADF00AD97B2 /* SwipeTab.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -451,6 +548,10 @@
 					};
 					CD178A06264BA34800AD97B2 = {
 						CreatedOnToolsVersion = 12.4;
+						LastSwiftMigration = 1240;
+					};
+					CD178A47264BCADF00AD97B2 = {
+						CreatedOnToolsVersion = 12.4;
 					};
 				};
 			};
@@ -473,6 +574,7 @@
 				CD1789A5264A337600AD97B2 /* Multimedia */,
 				CD1789E2264B703400AD97B2 /* NavigationBarCustomizing */,
 				CD178A06264BA34800AD97B2 /* UICustomizing */,
+				CD178A47264BCADF00AD97B2 /* SwipeTab */,
 			);
 		};
 /* End PBXProject section */
@@ -540,6 +642,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		CD178A46264BCADF00AD97B2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD178A57264BCAF800AD97B2 /* LaunchScreen.storyboard in Resources */,
+				CD178A54264BCAF800AD97B2 /* Assets.xcassets in Resources */,
+				CD178A52264BCADF00AD97B2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
@@ -559,6 +671,28 @@
 			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-LocationUse-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4FA9E17422CB08BD6BBC6D9E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SwipeTab-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -624,6 +758,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E9E3FBE5B53ED4BB25E170CA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SwipeTab/Pods-SwipeTab-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SwipeTab/Pods-SwipeTab-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SwipeTab/Pods-SwipeTab-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		F9F6BCEA4D763CE0F6EB9105 /* [CP] Check Pods Manifest.lock */ = {
@@ -710,7 +861,24 @@
 			files = (
 				CD178A0E264BA34800AD97B2 /* ViewController.swift in Sources */,
 				CD178A0A264BA34800AD97B2 /* AppDelegate.swift in Sources */,
+				CD178A2D264BAC1300AD97B2 /* FrontViewController.swift in Sources */,
 				CD178A0C264BA34800AD97B2 /* SceneDelegate.swift in Sources */,
+				CD178A3D264BC3E900AD97B2 /* NewWriteVC.swift in Sources */,
+				CD178A25264BA6E400AD97B2 /* SWRevealViewController.m in Sources */,
+				CD178A35264BB5A200AD97B2 /* SideBarVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD178A44264BCADF00AD97B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD178A4F264BCADF00AD97B2 /* ViewController.swift in Sources */,
+				CD178A84264BCEDD00AD97B2 /* FirstVC.swift in Sources */,
+				CD178A74264BCDBB00AD97B2 /* SwipeButtonWithImage.swift in Sources */,
+				CD178A4B264BCADF00AD97B2 /* AppDelegate.swift in Sources */,
+				CD178A4D264BCADF00AD97B2 /* SceneDelegate.swift in Sources */,
+				CD178A73264BCDBB00AD97B2 /* SwipeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -809,6 +977,22 @@
 			isa = PBXVariantGroup;
 			children = (
 				CD178A15264BA36500AD97B2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		CD178A50264BCADF00AD97B2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD178A51264BCADF00AD97B2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CD178A55264BCAF800AD97B2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD178A56264BCAF800AD97B2 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -1125,6 +1309,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = UICustomizing/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -1133,6 +1318,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = taehuikim0430.gmail.UICustomizing;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "UICustomizing/SWReveal/UICustomizing-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -1143,6 +1330,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = UICustomizing/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -1150,6 +1338,45 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = taehuikim0430.gmail.UICustomizing;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "UICustomizing/SWReveal/UICustomizing-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CD178A5A264BCAF800AD97B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C4DC9B51CD8BDAB4271679C /* Pods-SwipeTab.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SwipeTab/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = taehuikim0430.gmail.SwipeTab;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CD178A5B264BCAF800AD97B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3382F39DD1699C000CCFB9CF /* Pods-SwipeTab.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SwipeTab/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = taehuikim0430.gmail.SwipeTab;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1218,6 +1445,15 @@
 			buildConfigurations = (
 				CD178A19264BA36500AD97B2 /* Debug */,
 				CD178A1A264BA36500AD97B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD178A59264BCAF800AD97B2 /* Build configuration list for PBXNativeTarget "SwipeTab" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD178A5A264BCAF800AD97B2 /* Debug */,
+				CD178A5B264BCAF800AD97B2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
