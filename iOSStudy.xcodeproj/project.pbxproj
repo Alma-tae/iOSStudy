@@ -66,6 +66,12 @@
 		CD178A73264BCDBB00AD97B2 /* SwipeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD178A72264BCDBB00AD97B2 /* SwipeViewController.swift */; };
 		CD178A74264BCDBB00AD97B2 /* SwipeButtonWithImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD178A71264BCDBB00AD97B2 /* SwipeButtonWithImage.swift */; };
 		CD178A84264BCEDD00AD97B2 /* FirstVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD178A83264BCEDD00AD97B2 /* FirstVC.swift */; };
+		CD178A93264CAE0F00AD97B2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD178A92264CAE0F00AD97B2 /* AppDelegate.swift */; };
+		CD178A95264CAE0F00AD97B2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD178A94264CAE0F00AD97B2 /* SceneDelegate.swift */; };
+		CD178A97264CAE0F00AD97B2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD178A96264CAE0F00AD97B2 /* ContentView.swift */; };
+		CD178A99264CAE2A00AD97B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD178A98264CAE2900AD97B2 /* Assets.xcassets */; };
+		CD178A9C264CAE2A00AD97B2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD178A9B264CAE2A00AD97B2 /* Preview Assets.xcassets */; };
+		CD178A9F264CAE2A00AD97B2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD178A9D264CAE2A00AD97B2 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -151,6 +157,14 @@
 		CD178A71264BCDBB00AD97B2 /* SwipeButtonWithImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeButtonWithImage.swift; sourceTree = "<group>"; };
 		CD178A72264BCDBB00AD97B2 /* SwipeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeViewController.swift; sourceTree = "<group>"; };
 		CD178A83264BCEDD00AD97B2 /* FirstVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = FirstVC.swift; path = ../../../FirstVC.swift; sourceTree = "<group>"; };
+		CD178A90264CAE0F00AD97B2 /* SwiftUIDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD178A92264CAE0F00AD97B2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CD178A94264CAE0F00AD97B2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CD178A96264CAE0F00AD97B2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CD178A98264CAE2900AD97B2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CD178A9B264CAE2A00AD97B2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CD178A9E264CAE2A00AD97B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CD178AA0264CAE2A00AD97B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DB2C32E313878B73F4CB3D79 /* Pods-LocationUse.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LocationUse.debug.xcconfig"; path = "Target Support Files/Pods-LocationUse/Pods-LocationUse.debug.xcconfig"; sourceTree = "<group>"; };
 		E86D878E0B778A87DB4CAC19 /* Pods-MapUse.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MapUse.release.xcconfig"; path = "Target Support Files/Pods-MapUse/Pods-MapUse.release.xcconfig"; sourceTree = "<group>"; };
 		EA1C152017305714628018E5 /* Pods-Multimedia.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Multimedia.debug.xcconfig"; path = "Target Support Files/Pods-Multimedia/Pods-Multimedia.debug.xcconfig"; sourceTree = "<group>"; };
@@ -211,6 +225,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		CD178A8D264CAE0F00AD97B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -253,6 +274,7 @@
 				CD1789E4264B703400AD97B2 /* NavigationBarCustomizing */,
 				CD178A08264BA34800AD97B2 /* UICustomizing */,
 				CD178A49264BCADF00AD97B2 /* SwipeTab */,
+				CD178A91264CAE0F00AD97B2 /* SwiftUIDemo */,
 				C4B68678262EBDCD00EBFA47 /* Products */,
 				A15ED80E08923278B9666BF1 /* Pods */,
 				A161EFA5E72504505ACEC9F2 /* Frameworks */,
@@ -269,6 +291,7 @@
 				CD1789E3264B703400AD97B2 /* NavigationBarCustomizing.app */,
 				CD178A07264BA34800AD97B2 /* UICustomizing.app */,
 				CD178A48264BCADF00AD97B2 /* SwipeTab.app */,
+				CD178A90264CAE0F00AD97B2 /* SwiftUIDemo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -391,6 +414,28 @@
 				CD178A83264BCEDD00AD97B2 /* FirstVC.swift */,
 			);
 			path = SwipeTab;
+			sourceTree = "<group>";
+		};
+		CD178A91264CAE0F00AD97B2 /* SwiftUIDemo */ = {
+			isa = PBXGroup;
+			children = (
+				CD178A92264CAE0F00AD97B2 /* AppDelegate.swift */,
+				CD178A94264CAE0F00AD97B2 /* SceneDelegate.swift */,
+				CD178A96264CAE0F00AD97B2 /* ContentView.swift */,
+				CD178A98264CAE2900AD97B2 /* Assets.xcassets */,
+				CD178A9D264CAE2A00AD97B2 /* LaunchScreen.storyboard */,
+				CD178AA0264CAE2A00AD97B2 /* Info.plist */,
+				CD178A9A264CAE2A00AD97B2 /* Preview Content */,
+			);
+			path = SwiftUIDemo;
+			sourceTree = "<group>";
+		};
+		CD178A9A264CAE2A00AD97B2 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CD178A9B264CAE2A00AD97B2 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -522,6 +567,23 @@
 			productReference = CD178A48264BCADF00AD97B2 /* SwipeTab.app */;
 			productType = "com.apple.product-type.application";
 		};
+		CD178A8F264CAE0F00AD97B2 /* SwiftUIDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD178AA1264CAE2A00AD97B2 /* Build configuration list for PBXNativeTarget "SwiftUIDemo" */;
+			buildPhases = (
+				CD178A8C264CAE0F00AD97B2 /* Sources */,
+				CD178A8D264CAE0F00AD97B2 /* Frameworks */,
+				CD178A8E264CAE0F00AD97B2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftUIDemo;
+			productName = SwiftUIDemo;
+			productReference = CD178A90264CAE0F00AD97B2 /* SwiftUIDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -553,6 +615,9 @@
 					CD178A47264BCADF00AD97B2 = {
 						CreatedOnToolsVersion = 12.4;
 					};
+					CD178A8F264CAE0F00AD97B2 = {
+						CreatedOnToolsVersion = 12.4;
+					};
 				};
 			};
 			buildConfigurationList = C4B68672262EBDCD00EBFA47 /* Build configuration list for PBXProject "iOSStudy" */;
@@ -575,6 +640,7 @@
 				CD1789E2264B703400AD97B2 /* NavigationBarCustomizing */,
 				CD178A06264BA34800AD97B2 /* UICustomizing */,
 				CD178A47264BCADF00AD97B2 /* SwipeTab */,
+				CD178A8F264CAE0F00AD97B2 /* SwiftUIDemo */,
 			);
 		};
 /* End PBXProject section */
@@ -649,6 +715,16 @@
 				CD178A57264BCAF800AD97B2 /* LaunchScreen.storyboard in Resources */,
 				CD178A54264BCAF800AD97B2 /* Assets.xcassets in Resources */,
 				CD178A52264BCADF00AD97B2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD178A8E264CAE0F00AD97B2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD178A9F264CAE2A00AD97B2 /* LaunchScreen.storyboard in Resources */,
+				CD178A9C264CAE2A00AD97B2 /* Preview Assets.xcassets in Resources */,
+				CD178A99264CAE2A00AD97B2 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -882,6 +958,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		CD178A8C264CAE0F00AD97B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD178A93264CAE0F00AD97B2 /* AppDelegate.swift in Sources */,
+				CD178A95264CAE0F00AD97B2 /* SceneDelegate.swift in Sources */,
+				CD178A97264CAE0F00AD97B2 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
@@ -993,6 +1079,14 @@
 			isa = PBXVariantGroup;
 			children = (
 				CD178A56264BCAF800AD97B2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		CD178A9D264CAE2A00AD97B2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD178A9E264CAE2A00AD97B2 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -1383,6 +1477,46 @@
 			};
 			name = Release;
 		};
+		CD178AA2264CAE2A00AD97B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"SwiftUIDemo/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = SwiftUIDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = taehuikim0430.gmail.SwiftUIDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CD178AA3264CAE2A00AD97B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"SwiftUIDemo/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = SwiftUIDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = taehuikim0430.gmail.SwiftUIDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1454,6 +1588,15 @@
 			buildConfigurations = (
 				CD178A5A264BCAF800AD97B2 /* Debug */,
 				CD178A5B264BCAF800AD97B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD178AA1264CAE2A00AD97B2 /* Build configuration list for PBXNativeTarget "SwiftUIDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD178AA2264CAE2A00AD97B2 /* Debug */,
+				CD178AA3264CAE2A00AD97B2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
